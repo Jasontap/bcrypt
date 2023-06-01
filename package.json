@@ -1,0 +1,25 @@
+{
+  "name": "bcrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js",
+    "buildDB:dev": "nodemon ./DB/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
