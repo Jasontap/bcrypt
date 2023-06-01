@@ -3,6 +3,8 @@ const { Client } = require('pg');
 
 const connection_string = process.env.DATABASE_URL;
 
+console.log("CONNECTIONG STRING=============", connection_string)
+
 const client = new Client({connection_string});
 
 // Database adapters
